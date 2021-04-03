@@ -18,6 +18,7 @@ from models import network_layers
 from models.loss import lap_loss, interp_loss, data_loss, normal_loss, verts_dist
 from models.torch_smpl4garment import TorchSMPL4Garment
 
+sys.path.append("..")
 
 from data_utils.sizer_data import  SizerData
 from data_utils.geomtery import  get_res_vert, get_vid
