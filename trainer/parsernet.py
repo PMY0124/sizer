@@ -14,6 +14,8 @@ import torch.nn as nn
 from kaolin.rep import TriangleMesh as tm
 from kaolin.metrics.point import  SidedDistance
 
+sys.path.append("..")
+
 from models import network_layers
 from models.loss import lap_loss, interp_loss, data_loss, normal_loss, verts_dist
 from models.torch_smpl4garment import TorchSMPL4Garment
